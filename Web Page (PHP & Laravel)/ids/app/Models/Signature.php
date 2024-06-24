@@ -1,0 +1,28 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Signature extends Model
+{
+    use HasFactory;
+    public $timestamps = false;
+    protected $fillable = [
+        "action"	,
+        "protocol"	,
+        "source_ip"	,
+        "source_port",	
+        "destination_ip",	
+        "destination_port",	
+        "options"	,
+        "category_id",
+    ] ;
+    public function category()
+{
+    return $this->belongsTo(Category::class);
+}
+
+
+}

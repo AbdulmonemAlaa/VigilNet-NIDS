@@ -1,0 +1,550 @@
+* {
+  margin    : 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  padding-top: 40px;
+}
+
+/* start register page */
+
+.register {
+  width           : 100%;
+  background-color: #1b3649;
+  padding-bottom: 50px;
+  min-height: 100vh;
+}
+
+.register_info {
+  width        : 500px;
+  border-radius: 10px;
+  margin       : auto;
+}
+
+.register h3 {
+  color      : black;
+  font-family: 'Delicious Handrawn', cursive;
+  text-align : center;
+}
+
+.register .btn {
+  padding      : 5px 30px 5px 30px;
+  font-size    : 17px;
+  border-radius: 100px;
+}
+
+.register .btn a {
+  text-decoration: none;
+  color          : white;
+}
+
+.register_logo {
+  width        : 90px;
+  height       : 90px;
+  position     : relative;
+  left         : 205px;
+  border-radius: 60%;
+}
+
+/* end register page */
+
+/* start login page */
+
+.login {
+  width           : 100%;
+  height          : 100vh;
+  background-color: #1b3649;
+}
+
+.login_info {
+  margin-top: 140px;
+}
+
+.login h2 {
+  color      : black;
+  font-family: 'Alkatra', cursive;
+  position   : relative;
+  right      : 50px;
+}
+
+.login_text {
+  color: blue;
+}
+
+.login .btn {
+  padding      : 5px 45px 5px 45px;
+  font-size    : 25px;
+  border-radius: 100px;
+}
+
+.login .btn a {
+  text-decoration: none;
+  color          : white;
+}
+
+/* end login page */
+
+/* start index page */
+
+.index {
+  width           : 100%;
+  min-height          : 100vh;
+  background-color: #1b3649;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin         : auto;
+}
+
+.navbar ul li a:hover {
+  color           : orange;
+  background-color: transparent;
+}
+
+.nav-link {
+  color      : white;
+  font-size  : 18px;
+  margin-left: 20px;
+  font-family: 'Play', sans-serif;
+}
+
+.dropdown-menu {
+  background-color: #152836;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.index .sec {
+  background-color: #152836;
+  color           : white;
+  margin          : auto;
+}
+
+.index .sec1 {
+  background-color: #152836;
+  color           : white;
+}
+
+.index .sec2 {
+  background-color: #152836;
+  color           : white;
+}
+
+/* Adjust the hover effect to target both anchor tags and buttons within .dropdown-item */
+.dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active {
+  color: orange;
+  background-color: transparent;
+}
+
+/* You might need to adjust the specificity if the hover effect still doesn't apply */
+.navbar ul li .dropdown-item:hover, .navbar ul li .dropdown-item:focus, .navbar ul li .dropdown-item:active {
+  color: orange;
+  background-color: transparent;
+}
+
+
+/* end index page */
+
+/* start logs page */
+
+.logs {
+  width           : 100%;
+  background-color: #1b3649;
+  min-height: 100vh;
+}
+
+
+
+.table td {
+  color: white;
+}
+
+.table tr:hover td {
+  color: orange;
+}
+
+
+#leftMenu1 {
+  height          : 100%;
+  width           : 250px;
+  position        : fixed;
+  z-index         : 1;
+  top             : 0;
+  left            : 0;
+  background-color: #152836;
+}
+
+.sidenav1 a {
+  padding        : 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size      : 20px;
+  display        : block;
+  transition     : 0.3s;
+  color          : white;
+}
+
+.sidenav1 a:hover {
+  color: orange;
+}
+
+.logs_btn {
+  font-size       : 18px;
+  border          : transparent;
+  background-color: rgb(30, 169, 244);
+  color           : white;
+  border-radius   : 5px;
+  position        : relative;
+}
+
+.logs_btn:hover {
+  background-color: rgb(6, 122, 184);
+  transition      : .5s;
+}
+/* end logs page */
+
+/* start sign page */
+
+.sign {
+  width           : 100%;
+  background-color: #1b3649;
+  min-height: 100vh;
+}
+
+.sign a {
+  color          : white;
+  text-decoration: none;
+}
+
+.sign a:hover {
+  color: orange;
+}
+
+#leftMenu {
+  height          : 100%;
+  width           : 180px;
+  position        : fixed;
+  z-index         : 1;
+  top             : 0;
+  left            : 0;
+  background-color: #152836;
+}
+
+.sidenav a {
+  padding        : 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size      : 20px;
+  display        : block;
+  transition     : 0.3s;
+  color          : white;
+}
+
+.sidenav a:hover {
+  color: orange;
+}
+
+.sign_btn {
+  font-size       : 18px;
+  border          : transparent;
+  background-color: rgb(30, 169, 244);
+  color           : white;
+  border-radius   : 5px;
+  position        : relative;
+  top             : 220px;
+}
+
+.sign_btn:hover {
+  background-color: rgb(6, 122, 184);
+  transition      : .5s;
+}
+
+.sign .btn1 {
+  border          : transparent;
+  background-color: rgb(30, 169, 244);
+  color           : white;
+  border-radius   : 5px;
+  margin          : 5px;
+}
+
+.sign .btn2 {
+  border          : transparent;
+  background-color: red;
+  color           : white;
+  border-radius   : 5px;
+  margin          : 5px;
+}
+
+.sign .btn1:hover {
+  background-color: rgb(6, 122, 184);
+  transition      : .5s;
+}
+
+.sign .btn2:hover {
+  background-color: rgb(250, 72, 72);
+  transition      : .5s;
+}
+
+/* end sign page */
+
+/* start profile page */
+
+.profile{
+  width: 100%;
+  background-color: #1b3649;
+}
+
+.profile h3{
+  color: orange;
+  font-family:'Play', sans-serif ;
+  padding-bottom: 10px;
+  position: relative;
+  top: -30px;
+}
+
+.profile .profile_info{
+  background-color: #152836;
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+  top: -30px;
+}
+
+.profile .prof_btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.profile .prof_btn{
+  border: transparent;
+  border-radius: 7px;
+  font-size: 17px;
+  background-color: blue;
+}
+
+.profile .prof_btn:hover{
+  background-color: rgb(6, 122, 184);
+}
+
+.profile .del_btn{
+  background-color: red;
+  padding: 5px 10px 5px 10px;
+  border: transparent;
+  border-radius: 7px;
+}
+
+.profile .del_btn a{
+text-decoration: none;
+color: white;
+}
+
+.profile .del_btn:hover{
+  background-color:  rgb(250, 72, 72);
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 600px;
+  position: relative;
+  top: -100px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profile .BTN1{
+  background: transparent;
+  border-radius: 7px;
+background-color: black;
+  position: relative;
+  left: 340px;
+}
+
+.profile .BTN2{
+  border-radius: 7px;
+  background-color: red;
+  border: transparent;
+  position: relative;
+  left: 340px;
+}
+
+.profile .BTN1 a{
+  color: white;
+  text-decoration: none;
+}
+.profile .BTN2 a{
+  color: white;
+  text-decoration: none;
+}
+
+.profile .BTN1:hover{
+  background-color:  transparent;
+  transition: .5s;
+}
+
+.profile .BTN1 a:hover{
+color: black;
+}
+
+.profile .BTN2:hover{
+  background-color:  rgb(250, 72, 72);
+  transition: .5s;
+}
+
+
+/* start profile page */
+
+/* start add_sign page */
+
+.add_sign {
+  width           : 100%;
+  background-color: #1b3649;
+  padding-bottom: 50px;
+}
+
+.add_info{
+  background-color: #152836;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+}
+
+.add_sign button{
+  padding: 5px 15px 5px 15px;
+  border: transparent;
+  border-radius: 7px;
+  font-size: 17px;
+  background-color: blue;
+  color: white;
+}
+
+.add_sign button:hover{
+  background-color: rgb(6, 122, 184);
+  transition: .5s;
+}
+
+/* end add_sign page */
+
+/* start show page */
+
+.showw{
+  width: 100%;
+  background-color: #1b3649;
+  padding-bottom: 50px;
+}
+
+.showw_info{
+  background-color: #152836;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+.showw_info pre {
+  text-align: left; /* Ensure text aligns to the left */
+  white-space: pre-wrap; /* Optional: ensures the content wraps and doesn't overflow */
+  font-size: 15px; /* Adjust the font size as needed */
+}
+
+
+
+.showw h3{
+  color: orange;
+  font-family:'Play', sans-serif ;
+}
+
+/* end show page */
+
+
+
+
+/* start report page */
+
+.report {
+  width           : 100%;
+  background-color: #1b3649;
+  min-height: 100vh;
+}
+
+#leftMenu2 {
+  height          : 100%;
+  width           : 250px;
+  position        : fixed;
+  z-index         : 1;
+  top             : 0;
+  left            : 0;
+  background-color: #152836;
+}
+
+.report_btn {
+  font-size       : 18px;
+  border          : transparent;
+  background-color: rgb(30, 169, 244);
+  color           : white;
+  border-radius   : 5px;
+  margin-left     : 70px;
+}
+
+.report_btn:hover {
+  background-color: rgb(6, 122, 184);
+  transition      : .5s;
+}
+
+.report_info {
+  background-color: #152836;
+  border-radius   : 10px;
+  margin          : auto;
+  padding         : 20px;
+  color           : white;
+}
+
+.report_btn1{
+  font-size       : 20px;
+  border          : transparent;
+  background-color: rgb(30, 169, 244);
+  color           : white;
+  border-radius   : 5px;
+  position: relative;
+  top: 30%;
+}
+.report_btn1:hover {
+  background-color: rgb(6, 122, 184);
+  transition      : .5s;
+}
+
+
+/* end report page */
+
+
+
+
