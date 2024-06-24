@@ -37,21 +37,18 @@ The Signature-Based Intrusion Detection System (IDS) identifies and mitigates kn
 - Web Technologies: HTML, CSS, JavaScript, PHP, Laravel
 
 ### Installation
-
 1. Clone the Repository:
-   - git clone https://github.com/AbdulmonemAlaa/VigilNet-NIDS.git
-   cd VigilNet-NIDS
-   
-2.Set Up the Database:
-   - Use MySQL and phpMyAdmin to create and manage the database.
-   - Import the database schema provided in the database/schema.sql file.
-   
+- git clone https://github.com/AbdulmonemAlaa/VigilNet-NIDS.git
+cd VigilNet-NIDS
+2. Set Up the Database:
+- Use MySQL and phpMyAdmin to create and manage the database.
+- Import the database schema provided in the database/schema.sql file.
 3. Configure the Environment:
-   - Update the .env file with your database credentials and other configuration details.
+- Update the .env file with your database credentials and other configuration details.
 4. Install Dependencies:
-   - pip install -r requirements.txt
+- pip install -r requirements.txt
 5. Run the Application:
-   - python manage.py runserver
+- python manage.py runserver
 ## Usage
 ### Login:
   Default Username: admin@gmail.com
